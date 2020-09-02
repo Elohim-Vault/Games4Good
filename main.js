@@ -9,6 +9,13 @@ let config = {
   dom: {
     createContainer: true
   },
+        physics: {
+            default: 'arcade',
+            arcade: {
+                gravity: { y: 300 },
+                debug: false
+            }
+        },
   scene: [Menu, Jogo, Credito],
 };
 
