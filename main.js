@@ -12,11 +12,11 @@ let config = {
         physics: {
             default: 'arcade',
             arcade: {
-                gravity: { y: 300 },
+                gravity: { y: 100 },
                 debug: false
             }
         },
-  scene: [Menu, Jogo, Credito],
+  scene: [Menu, Jogo, Credito, Casa, PrimeiraCutscene, CutsceneQuarto, CutsceneFora, UltimaCutscene],
 };
 
 var foundation_fonts = `Inconsolata, Cousine, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace`;

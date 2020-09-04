@@ -23,7 +23,7 @@ class Menu extends SimpleScene {
 
   update() {
     if(this.botaoJogar.wasClicked()){
-      this.scene.start("Jogo")
+      this.scene.start("PrimeiraCutscene")
     }
 
     
