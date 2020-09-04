@@ -131,10 +131,10 @@ class Jogo extends SimpleScene {
       this.enemys[i].moveBack();
       // Colisão com o player e game over
       if (this.intersects(this.player, this.enemys[i], 0.8)) {
-        // this.timeText = this.addText(this.player.x - 50, this.player.y - 200, "GAME OVER!")
+        this.timeText = this.addText(this.player.x - 50, this.player.y - 200, "GAME OVER!")
         this.player.setTint(0xff0000);
-        // this.timeText.setFontSize(30);
-        // this.scene.start("Jogo")
+        this.timeText.setFontSize(30);
+        this.scene.start("Jogo")
         }
       }
 
